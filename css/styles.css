@@ -1,0 +1,72 @@
+body {
+    font-family: "Roboto mono", monospace;
+    /* se usa para llamar la fuente de letra */
+    margin: 0;
+    /*  todos estas etiquetas hacen que nuestra pagina no se mueva, no tenga scroll */
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: black;
+}
+
+.img-container img {
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.nav-container {
+    margin-top: 30px;
+}
+
+.nav-container ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 16px;
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-container ul li a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+}
+
+.header-icons-container .icons {
+    width: 200px;
+    height: auto;
+    display: flex;           
+    justify-items: flex-end;     
+    align-items: center;        
+    justify-content: space-between;    
+    justify-self: end;             
+    margin-right: 130px;
+    margin-top: 45px;          
+}
+
+.icons span {
+    color: white;
+}
+
+.header-icons-container span:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.img-container img:hover {
+    color: gray;
+    cursor: pointer;
+}
